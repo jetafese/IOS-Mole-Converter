@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851B1E441E87781800270581 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851B1E431E87781800270581 /* Media.xcassets */; };
+		8C1468261DEA8E5F00D0D75A /* Atoms_Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1468251DEA8E5F00D0D75A /* Atoms_Mass.swift */; };
+		8C5903971D636E0D000C58FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5903961D636E0D000C58FA /* AppDelegate.swift */; };
+		8C5903991D636E0D000C58FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5903981D636E0D000C58FA /* ViewController.swift */; };
+		8C59039C1D636E0D000C58FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C59039A1D636E0D000C58FA /* Main.storyboard */; };
+		8C5903A11D636E0D000C58FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C59039F1D636E0D000C58FA /* LaunchScreen.storyboard */; };
+		8C5903AC1D636E0D000C58FA /* Mole_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5903AB1D636E0D000C58FA /* Mole_ConverterTests.swift */; };
+		8C5903B71D636E0E000C58FA /* Mole_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5903B61D636E0E000C58FA /* Mole_ConverterUITests.swift */; };
+		8C6CD55F1D6414BD00508246 /* Mole_mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CD55E1D6414BD00508246 /* Mole_mass.swift */; };
+		8C6CD5611D6414D400508246 /* Mass_mole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CD5601D6414D400508246 /* Mass_mole.swift */; };
+		8C8AB48E1DEF35AA00AA0D5D /* Mass_Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8AB48D1DEF35AA00AA0D5D /* Mass_Atoms.swift */; };
+		8C8F0FB51DBB1943001B4971 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8F0FB41DBB1943001B4971 /* SWRevealViewController.m */; };
+		8CA164191DE2B0DE00AF5790 /* Mol_Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA164181DE2B0DE00AF5790 /* Mol_Atoms.swift */; };
+		8CD34D9C1DE3719A00EDD4ED /* Atoms_Mol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD34D9B1DE3719A00EDD4ED /* Atoms_Mol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C5903A81D636E0D000C58FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C59038B1D636E0D000C58FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5903921D636E0D000C58FA;
+			remoteInfo = "Mole Converter";
+		};
+		8C5903B31D636E0E000C58FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C59038B1D636E0D000C58FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5903921D636E0D000C58FA;
+			remoteInfo = "Mole Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		851B1E431E87781800270581 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8C1468251DEA8E5F00D0D75A /* Atoms_Mass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atoms_Mass.swift; sourceTree = "<group>"; };
+		8C5903931D636E0D000C58FA /* Mole Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mole Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5903961D636E0D000C58FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C5903981D636E0D000C58FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C59039B1D636E0D000C58FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C5903A01D636E0D000C58FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C5903A21D636E0D000C58FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5903A71D636E0D000C58FA /* Mole ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mole ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5903AB1D636E0D000C58FA /* Mole_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mole_ConverterTests.swift; sourceTree = "<group>"; };
+		8C5903AD1D636E0E000C58FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C5903B21D636E0E000C58FA /* Mole ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mole ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5903B61D636E0E000C58FA /* Mole_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mole_ConverterUITests.swift; sourceTree = "<group>"; };
+		8C5903B81D636E0E000C58FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C6CD55E1D6414BD00508246 /* Mole_mass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mole_mass.swift; sourceTree = "<group>"; };
+		8C6CD5601D6414D400508246 /* Mass_mole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mass_mole.swift; sourceTree = "<group>"; };
+		8C8AB48D1DEF35AA00AA0D5D /* Mass_Atoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mass_Atoms.swift; sourceTree = "<group>"; };
+		8C8F0FB21DBB1943001B4971 /* Mole Converter-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mole Converter-Bridging-Header.h"; sourceTree = "<group>"; };
+		8C8F0FB31DBB1943001B4971 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		8C8F0FB41DBB1943001B4971 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		8CA164181DE2B0DE00AF5790 /* Mol_Atoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mol_Atoms.swift; sourceTree = "<group>"; };
+		8CD34D9B1DE3719A00EDD4ED /* Atoms_Mol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atoms_Mol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C5903901D636E0D000C58FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5903A41D636E0D000C58FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5903AF1D636E0E000C58FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C59038A1D636E0D000C58FA = {
+			isa = PBXGroup;
+			children = (
+				8C5903951D636E0D000C58FA /* Mole Converter */,
+				8C5903AA1D636E0D000C58FA /* Mole ConverterTests */,
+				8C5903B51D636E0E000C58FA /* Mole ConverterUITests */,
+				8C5903941D636E0D000C58FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C5903941D636E0D000C58FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C5903931D636E0D000C58FA /* Mole Converter.app */,
+				8C5903A71D636E0D000C58FA /* Mole ConverterTests.xctest */,
+				8C5903B21D636E0E000C58FA /* Mole ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C5903951D636E0D000C58FA /* Mole Converter */ = {
+			isa = PBXGroup;
+			children = (
+				8C5903961D636E0D000C58FA /* AppDelegate.swift */,
+				8C5903A21D636E0D000C58FA /* Info.plist */,
+				8C59039F1D636E0D000C58FA /* LaunchScreen.storyboard */,
+				8C59039A1D636E0D000C58FA /* Main.storyboard */,
+				8C5903981D636E0D000C58FA /* ViewController.swift */,
+				8C8F0FB21DBB1943001B4971 /* Mole Converter-Bridging-Header.h */,
+				8C8F0FB31DBB1943001B4971 /* SWRevealViewController.h */,
+				8C8F0FB41DBB1943001B4971 /* SWRevealViewController.m */,
+				8C6CD5601D6414D400508246 /* Mass_mole.swift */,
+				8C6CD55E1D6414BD00508246 /* Mole_mass.swift */,
+				8CA164181DE2B0DE00AF5790 /* Mol_Atoms.swift */,
+				8CD34D9B1DE3719A00EDD4ED /* Atoms_Mol.swift */,
+				8C1468251DEA8E5F00D0D75A /* Atoms_Mass.swift */,
+				8C8AB48D1DEF35AA00AA0D5D /* Mass_Atoms.swift */,
+				851B1E431E87781800270581 /* Media.xcassets */,
+			);
+			path = "Mole Converter";
+			sourceTree = "<group>";
+		};
+		8C5903AA1D636E0D000C58FA /* Mole ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C5903AB1D636E0D000C58FA /* Mole_ConverterTests.swift */,
+				8C5903AD1D636E0E000C58FA /* Info.plist */,
+			);
+			path = "Mole ConverterTests";
+			sourceTree = "<group>";
+		};
+		8C5903B51D636E0E000C58FA /* Mole ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C5903B61D636E0E000C58FA /* Mole_ConverterUITests.swift */,
+				8C5903B81D636E0E000C58FA /* Info.plist */,
+			);
+			path = "Mole ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C5903921D636E0D000C58FA /* Mole Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5903BB1D636E0E000C58FA /* Build configuration list for PBXNativeTarget "Mole Converter" */;
+			buildPhases = (
+				8C59038F1D636E0D000C58FA /* Sources */,
+				8C5903901D636E0D000C58FA /* Frameworks */,
+				8C5903911D636E0D000C58FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mole Converter";
+			productName = "Mole Converter";
+			productReference = 8C5903931D636E0D000C58FA /* Mole Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C5903A61D636E0D000C58FA /* Mole ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5903BE1D636E0E000C58FA /* Build configuration list for PBXNativeTarget "Mole ConverterTests" */;
+			buildPhases = (
+				8C5903A31D636E0D000C58FA /* Sources */,
+				8C5903A41D636E0D000C58FA /* Frameworks */,
+				8C5903A51D636E0D000C58FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C5903A91D636E0D000C58FA /* PBXTargetDependency */,
+			);
+			name = "Mole ConverterTests";
+			productName = "Mole ConverterTests";
+			productReference = 8C5903A71D636E0D000C58FA /* Mole ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C5903B11D636E0E000C58FA /* Mole ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5903C11D636E0E000C58FA /* Build configuration list for PBXNativeTarget "Mole ConverterUITests" */;
+			buildPhases = (
+				8C5903AE1D636E0E000C58FA /* Sources */,
+				8C5903AF1D636E0E000C58FA /* Frameworks */,
+				8C5903B01D636E0E000C58FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C5903B41D636E0E000C58FA /* PBXTargetDependency */,
+			);
+			name = "Mole ConverterUITests";
+			productName = "Mole ConverterUITests";
+			productReference = 8C5903B21D636E0E000C58FA /* Mole ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C59038B1D636E0D000C58FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Joseph Elias";
+				TargetAttributes = {
+					8C5903921D636E0D000C58FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					8C5903A61D636E0D000C58FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 57D598W6ET;
+						LastSwiftMigration = 0800;
+						TestTargetID = 8C5903921D636E0D000C58FA;
+					};
+					8C5903B11D636E0E000C58FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 57D598W6ET;
+						LastSwiftMigration = 0800;
+						TestTargetID = 8C5903921D636E0D000C58FA;
+					};
+				};
+			};
+			buildConfigurationList = 8C59038E1D636E0D000C58FA /* Build configuration list for PBXProject "Mole Converter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C59038A1D636E0D000C58FA;
+			productRefGroup = 8C5903941D636E0D000C58FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C5903921D636E0D000C58FA /* Mole Converter */,
+				8C5903A61D636E0D000C58FA /* Mole ConverterTests */,
+				8C5903B11D636E0E000C58FA /* Mole ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C5903911D636E0D000C58FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5903A11D636E0D000C58FA /* LaunchScreen.storyboard in Resources */,
+				851B1E441E87781800270581 /* Media.xcassets in Resources */,
+				8C59039C1D636E0D000C58FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5903A51D636E0D000C58FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5903B01D636E0E000C58FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C59038F1D636E0D000C58FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6CD55F1D6414BD00508246 /* Mole_mass.swift in Sources */,
+				8C5903991D636E0D000C58FA /* ViewController.swift in Sources */,
+				8C5903971D636E0D000C58FA /* AppDelegate.swift in Sources */,
+				8CA164191DE2B0DE00AF5790 /* Mol_Atoms.swift in Sources */,
+				8C8AB48E1DEF35AA00AA0D5D /* Mass_Atoms.swift in Sources */,
+				8C6CD5611D6414D400508246 /* Mass_mole.swift in Sources */,
+				8CD34D9C1DE3719A00EDD4ED /* Atoms_Mol.swift in Sources */,
+				8C1468261DEA8E5F00D0D75A /* Atoms_Mass.swift in Sources */,
+				8C8F0FB51DBB1943001B4971 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5903A31D636E0D000C58FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5903AC1D636E0D000C58FA /* Mole_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5903AE1D636E0E000C58FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5903B71D636E0E000C58FA /* Mole_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C5903A91D636E0D000C58FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C5903921D636E0D000C58FA /* Mole Converter */;
+			targetProxy = 8C5903A81D636E0D000C58FA /* PBXContainerItemProxy */;
+		};
+		8C5903B41D636E0E000C58FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C5903921D636E0D000C58FA /* Mole Converter */;
+			targetProxy = 8C5903B31D636E0E000C58FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C59039A1D636E0D000C58FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C59039B1D636E0D000C58FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C59039F1D636E0D000C58FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C5903A01D636E0D000C58FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C5903B91D636E0E000C58FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C5903BA1D636E0E000C58FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C5903BC1D636E0E000C58FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 57D598W6ET;
+				INFOPLIST_FILE = "Mole Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseph-elias.org.Mole-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mole Converter/Mole Converter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C5903BD1D636E0E000C58FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 57D598W6ET;
+				INFOPLIST_FILE = "Mole Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseph-elias.org.Mole-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mole Converter/Mole Converter-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8C5903BF1D636E0E000C58FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mole ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseph-elias.org.Mole-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mole Converter.app/Mole Converter";
+			};
+			name = Debug;
+		};
+		8C5903C01D636E0E000C58FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mole ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseph-elias.org.Mole-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mole Converter.app/Mole Converter";
+			};
+			name = Release;
+		};
+		8C5903C21D636E0E000C58FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mole ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseph-elias.org.Mole-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mole Converter";
+			};
+			name = Debug;
+		};
+		8C5903C31D636E0E000C58FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Mole ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "joseph-elias.org.Mole-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mole Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C59038E1D636E0D000C58FA /* Build configuration list for PBXProject "Mole Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5903B91D636E0E000C58FA /* Debug */,
+				8C5903BA1D636E0E000C58FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5903BB1D636E0E000C58FA /* Build configuration list for PBXNativeTarget "Mole Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5903BC1D636E0E000C58FA /* Debug */,
+				8C5903BD1D636E0E000C58FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5903BE1D636E0E000C58FA /* Build configuration list for PBXNativeTarget "Mole ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5903BF1D636E0E000C58FA /* Debug */,
+				8C5903C01D636E0E000C58FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5903C11D636E0E000C58FA /* Build configuration list for PBXNativeTarget "Mole ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5903C21D636E0E000C58FA /* Debug */,
+				8C5903C31D636E0E000C58FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C59038B1D636E0D000C58FA /* Project object */;
+}
