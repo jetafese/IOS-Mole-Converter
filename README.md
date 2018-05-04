@@ -6,4 +6,3 @@
 	implementation of a Stack, the Mole Converter iOS application offers a platform to perform
 	calculations related to the molar concept and Avogadro's number.
 
-# IOS-Mole-Converter
