@@ -64,7 +64,7 @@ class Atoms_Mol: UIViewController, UITextFieldDelegate {
         self.atoms.delegate = self
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         } // end if
     } // end method
@@ -72,7 +72,7 @@ class Atoms_Mol: UIViewController, UITextFieldDelegate {
     // Purpose: Set return key to remove keyboard
     // Input: textfield value
     // Output: succesful boolean
-    func textFieldShouldReturn(_ textField: UITextField!) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         atoms.resignFirstResponder()
         return true
     } // end method

@@ -41,7 +41,10 @@ extension String {
                                             upper: min(length, max(0, r.upperBound))))
         let start = index(startIndex, offsetBy: range.lowerBound)
         let end = index(start, offsetBy: range.upperBound - range.lowerBound)
-        return self[Range(start ..< end)]
+        let it = start..<end
+        
+        return self.substring(with: it)
+//        return self[Range(start ..< end)]
     }
     
     subscript (i: Int) -> String {
@@ -225,13 +228,13 @@ class ViewController: UIViewController {
                      stack.push(dict(e[x] + e[x+1]));
                 }
                 else{
-                     stack.pop()
+                     var _ = stack.pop()
                      stack.push(dict(e[x] + e[x+1]));
                 }
                 
             }
             
-            if let int = Int(e[x]) {
+                if Int(e[x]) != nil {
             
                 let s = stack.pop()
                 let m = Double(e[x])!
@@ -247,7 +250,7 @@ class ViewController: UIViewController {
          
     // calculate total molar mass
 
-        for f in 0..<stack.count {
+        for _ in 0..<stack.count {
             
             mass += stack.pop()
         

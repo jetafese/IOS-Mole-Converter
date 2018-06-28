@@ -8,8 +8,8 @@ extension Double {
     init?(myFormat:String) {
         guard let
             standardDouble = Double(myFormat),
-            let firstChar: Character? = myFormat.characters.first,
-            let lastChar: Character? = myFormat.characters.last
+            let firstChar: Character = myFormat.characters.first,
+            let lastChar: Character = myFormat.characters.last
             , firstChar != "." && lastChar != "."
             else { return nil }
         self = standardDouble
@@ -85,7 +85,7 @@ class Mole_mass: UIViewController, UITextFieldDelegate {
         
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
-            menuButton.action = "revealToggle:"
+            menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         } // end if
     } // end method
@@ -93,7 +93,7 @@ class Mole_mass: UIViewController, UITextFieldDelegate {
     // Purpose: Textfield behaviour
     // Input: None
     // Output: None
-    func textFieldShouldReturn(_ textField: UITextField!) -> Bool {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         elementB.resignFirstResponder()
         molesB.resignFirstResponder()
 
